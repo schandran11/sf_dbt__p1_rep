@@ -1,3 +1,4 @@
+{{config(materialized='table')}}
 SELECT
   *
 FROM
@@ -12,4 +13,3 @@ SELECT
   *
 FROM
   SNOWFLAKE_DBT.SF_DBT_SCH.USERS_TABLE
-  
